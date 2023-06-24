@@ -9,12 +9,13 @@ dependencies:
   - python=3.7
   - torchvision
   - cpuonly
-  - pytorch
   - pandas
   - rdkit
   - tqdm
   - networkx
   - graphviz
   - python-graphviz
+  - pip:
+    - torch==1.2.0
 prefix: /home/binghong/miniconda3/envs/retro_star_env
 
